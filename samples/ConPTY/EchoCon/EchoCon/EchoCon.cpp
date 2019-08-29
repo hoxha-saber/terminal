@@ -12,7 +12,7 @@ void __cdecl PipeListener(LPVOID);
 
 int main()
 {
-    wchar_t szCommand[]{ L"ping localhost" };
+    wchar_t szCommand[]{ L"ping www.microsoft.com" };
     HRESULT hr{ E_UNEXPECTED };
     HANDLE hConsole = { GetStdHandle(STD_OUTPUT_HANDLE) };
 
